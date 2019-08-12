@@ -168,10 +168,6 @@ public class MainWindow extends JFrame implements ActionListener {
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
-		JSpinner spinner = new JSpinner();
-		spinner.setBounds(59, 383, 29, 20);
-		contentPane.add(spinner);
-		
 		//BOTON CONECTAR/DESCONECTAR CON NEUROSKY
 		btnConectar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
